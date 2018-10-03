@@ -9,6 +9,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css">
     <title>Ristorante Con Fusion</title>
 </head>
 
@@ -16,7 +17,7 @@
 
     <header class = "jumbotron">
         <div  class ="container" >
-            <div class = "row" >
+            <div class = "row row-header " >
                 <div class="col-12 col-sm-6 " > <!-- all 12 col will be occupied in small screen and 6 will be occupied in larger screens -->
                     <h1>Ristorante con Fusion </h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
@@ -28,8 +29,8 @@
     </header>
 
     <div class = "container">
-        <div class="row">
-            <div class = " col-12 col-sm-4 col-md-3 order-sm-last> <!-- this means this div will occupy 12 coloumns in ex-small screen and 4 cl in small screen and 3 cl in mid  to ex-large screen -->
+        <div class="row row-content align-item-center">
+            <div class = " col-12 col-sm-4 col-md-3 order-sm-last 	> <!-- this means this div will occupy 12 coloumns in ex-small screen and 4 cl in small screen and 3 cl in mid  to ex-large screen -->
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
             <div class ="col col-sm col-md order-sm-first"> <!-- col - alwz below div 1 in small screen , col-sm - occupies remaining 8 col , col-md - occupies remainig mid col. -->
@@ -39,7 +40,7 @@
         </div>
 
 
-        <div class = "row">
+        <div class = "row row-content align-item-center" >
             <div class = " col-12 col-sm-4 col-md-3 order-sm-first">
                 <h3>This Month's Promotions</h3>
             </div>
@@ -49,11 +50,11 @@
             </div>
         </div>
 
-        <div class = "row">
+        <div class = "row  row-content align-item-center">
             <div class = " col-12 col-sm-4 col-md-3 order-sm-first">
                 <h3>Meet our Culinary Specialists</h3>
             </div>
-            <div class ="col col-sm col-md" order-sm-last>
+            <div class ="col col-sm col-md order-sm-last">
                 <h2>Alberto Somayya</h2>
                 <h4>Executive Chef</h4>
                 <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
@@ -61,12 +62,12 @@
         </div>
     </div>
 
-    <footer>
+    <footer  class="footer">
         <div class = "container">
             <div class = "row">             
                 <div class = " offset-1 col-4  col-sm-2"> <!-- offset-1 will shift our div by 1 col -->
                      <h5>Links</h5>
-                    <ul>
+                    <ul class = "list-unstyled ">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Menu</a></li>
@@ -83,9 +84,9 @@
 		              Fax: +852 8765 4321<br>
 		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
 		           </address>
-                </div>
-                <div class =" col-12 col-sm-4 ">
-                    <div >
+                </div >
+                <div class =" col-12 col-sm-4 align-self-center">
+                    <div class ="text-center">
                         <a href="http://google.com/+">Google+</a>
                         <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
                         <a href="http://www.linkedin.com/in/">LinkedIn</a>
@@ -95,7 +96,7 @@
                     </div>
                 </div>
            </div>
-           <div class = "row">             
+           <div class = "row justify-content-center">             
                 <div class ="auto">
                     <p>© Copyright 2018 Ristorante Con Fusion</p>
                 </div>
