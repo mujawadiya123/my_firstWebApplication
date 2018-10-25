@@ -50,3 +50,15 @@ z-index : 0 ;
 	color: #0f0f0f;
 	
 }
+
+.card-header{
+	
+	background-color: #9575CD;
+	
+}
+
+.card{
+	
+	padding :  0px;
+	margin : 10px 0px 10px 200px;
+}
